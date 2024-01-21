@@ -25,12 +25,13 @@ class conditionalStatements
     int b=11;
     int c=17;
 
-    if(a>b && a>c)
+    if(a<b && a<c)
     {System.out.println("smallest number is"+a);}
-   else if(b>a && b>c)
-   { System.out.println("smallest number is",+b);}
+   else if(b<a && b<c)
+   { System.out.println("smallest number is"+b);}
     else{
-    System.out.println("smallest number is",+c);}
+    System.out.println("smallest number is"+c);}
+
     System.out.println("thankyou");
 
 
